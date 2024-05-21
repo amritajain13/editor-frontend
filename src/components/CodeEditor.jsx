@@ -45,7 +45,7 @@ const CodeEditor = () => {
       });
 
     setTimeout(() => {
-      socket.emit("terminal:write", "clear; g++ ant.cpp; ./a.exe\r\n");
+      socket.emit("terminal:write", "clear; g++ ant.cpp; ./a.out\r\n");
     }, 500);
   };
 
