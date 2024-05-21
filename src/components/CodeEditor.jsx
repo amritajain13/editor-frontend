@@ -29,7 +29,7 @@ const CodeEditor = () => {
   const handleSubmit = async () => {
     const codeVariable = code;
 
-    await fetch("http://localhost:9000/submit", {
+    await fetch("https://editor-backend-1w03.onrender.com/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
